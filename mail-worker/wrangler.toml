@@ -6,18 +6,18 @@ keep_vars = true
 [observability]
 enabled = true
 
-#[[d1_databases]]
-#binding = "db"			# D1 binding name; do not change
-#database_name = ""		# D1 database name
-#database_id = ""		# D1 database id
+[[d1_databases]]
+binding = "db"			# D1 binding name; do not change
+database_name = "db"		# D1 database name
+database_id = "6c949f34-ad8c-4453-a36e-aa0aed9e3616"		# D1 database id
 
-#[[kv_namespaces]]
-#binding = "kv"			# KV binding name; do not change
-#id = ""					# KV namespace id
+[[kv_namespaces]]
+binding = "kv"			# KV binding name; do not change
+id = "2378eb88de0e45e6a88891c597ccd83c"					# KV namespace id
 
-#[[r2_buckets]]
-#binding = "r2"			# R2 binding name; do not change
-#bucket_name = ""		# R2 bucket name
+[[r2_buckets]]
+binding = "r2"			# R2 binding name; do not change
+bucket_name = "mail"		# R2 bucket name
 
 #[[send_email]]
 #name = "email"			# Cloudflare Email Sending; used first if configured
